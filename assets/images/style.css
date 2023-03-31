@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+
+ background-color: black
+ 
+}
+    
+.header {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+  background-color: #13293d;
+  color: #fff;
+    
+}
+
+.Header-two{
+    border-style: dotted;
+    border-left: #13293d;
+}
+
+img{
+    border: solid blanchedalmond 3px;
+    padding: 100px;
+    width: 600px;
+    min-height: 5px ;
+    }
+
+
+nav {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+flex-wrap: wrap;
+    }
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    justify-content: space-between
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white
+}
+ nav ul li a:hover{
+    font-size: large;
+    color:blueviolet
+    width:100%
+ }
+
+ .Content {
+    padding: 30px;
+    
+
+}
+
+.row{
+    display: flex;
+    
+}
+
+.Content h2{
+    padding: 80px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 300;
+    color:antiquewhite
+}
+
+.hero {
+ height: 400px;
+width: 100%;
+background-image: url(../assets/images/Portfolio\ cover\ 2.jpg)
+    
+}
+
+.Col-2 p {
+    padding: 60px;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Align{
+    display: flex;
+    padding: 80px;
+}
+
+
+
+
+.Col-4 h2{
+    padding: 80px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 300;
+    color:antiquewhite
+}
+
+.Col-4 ul li {
+    list-style: none;
+     padding: 40px;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.adjust{
+    display: flex;
+    padding: 80px;
+
+}
+
+.Col-6 p {
+    padding: 60px;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri
+}
+
+h3{
+    padding: 80px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 300;
+    color:antiquewhite
+}
+
